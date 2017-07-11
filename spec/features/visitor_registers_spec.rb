@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature "member regiesters for site" do
-  scenario "Member registers" do
+feature "visitor regiesters for site" do
+  scenario "visitor registers" do
     visit root_path
     expect(page).to have_text("Welcome to the Photo App")
     click_link "Share photos now!"
